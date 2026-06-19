@@ -5,7 +5,7 @@ Some projects are private, early, or split across more than one repo. These note
 ## Product Work
 
 - [BioTrack](biotrack.md) - iOS-first health tracker with workout, nutrition, recovery, HealthKit and Supabase sync work.
-- [Ozyra](ozyra.md) - local-first AI workspace on web, plus a native iOS companion.
+- [Ozyra](ozyra.md) - hosted AI workspace, open-source local edition and native iOS companion.
 - [LM Local](lm-local.md) - native iOS experiment for running MLX language and vision models on device.
 - [Mac UtilityHub](mac-utilityhub.md) - modular native macOS utility app for cleanup, battery, system metrics, commands and clipboard work.
 

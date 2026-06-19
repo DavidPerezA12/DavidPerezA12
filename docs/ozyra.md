@@ -1,10 +1,10 @@
 # Ozyra
 
-Ozyra is my personal AI workspace. There are two related codebases: the web app, where most of the work lives, and a native iOS app that ports the same ideas into SwiftUI.
+Ozyra is my personal AI workspace. There are three related codebases: the current hosted web app, an open-source local-first edition rebuilt from an earlier OzyraChat version, and a native iOS app that ports the same ideas into SwiftUI.
 
 ## OzyraChat Web
 
-The web version is a local-first Next.js app. Chats, messages, artifacts, notebooks, notebook documents and image generations live first in IndexedDB through Dexie, then sync to Supabase for auth, backup, quotas, billing, realtime and remote history.
+The current web version is a local-first SaaS built with Next.js. Chats, messages, artifacts, notebooks, notebook documents and image generations live first in IndexedDB through Dexie, then sync to Supabase for auth, backup, quotas, billing, realtime and remote history.
 
 The web app includes:
 
@@ -19,6 +19,12 @@ The web app includes:
 
 The app is not just a chat skin. A lot of the work is in the plumbing: local schema migrations, cross-tab sync, encrypted provider keys, quota accounting and keeping notebook/image flows attached to the right chat context.
 
+## Ozyra Open
+
+[Ozyra Open](https://github.com/DavidPerezA12/OzyraOpen) is the public local-first edition. It started from an earlier OzyraChat codebase and was reworked into a standalone browser client: Vite, React, TypeScript, local browser storage and direct OpenRouter streaming.
+
+It deliberately leaves out the hosted SaaS layer: no Supabase auth, no billing, no server-side quotas, no managed sync and no notebook/RAG infrastructure. The point is to keep a small, inspectable version for people who want to bring their own API key and keep conversations local.
+
 ## OzyraApp
 
 OzyraApp is the native iPhone/iPad companion. It is not a web wrapper. It uses SwiftUI, URLSession streaming, a native model selector and Keychain-backed secrets. The web repo remains the source of truth for Supabase migrations, model data and API contracts.
@@ -27,4 +33,4 @@ The iOS catalog ports Ozyra's model setup into Swift. The documented catalog cov
 
 ## Status
 
-Private alpha. OzyraChat has the deeper feature set. OzyraApp is the native experiment: same model catalog and chat contracts, but with iOS storage, streaming and UI choices instead of a wrapped web app.
+Private alpha for the hosted app. OzyraChat has the deeper SaaS feature set. Ozyra Open is the public local client. OzyraApp is the native experiment: same model catalog and chat contracts, but with iOS storage, streaming and UI choices instead of a wrapped web app.
