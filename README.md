@@ -31,8 +31,8 @@ Check out [mysite](https://davidperezsite.vercel.app)
 ## Open source
 
 - [**Ozyra Open**](https://github.com/DavidPerezA12/OzyraOpen) —
-  earlier OzyraChat build, reworked into a local-first open-source
-  client with browser storage, OpenRouter streaming and model switching.
+  I stripped an old OzyraChat build back into a local app: your key,
+  your browser, no accounts.
 - [**FixPilot**](https://github.com/DavidPerezA12/FixPilot) —
   self-hosted GitHub App that reviews PRs and suggests fixes.
 - [**MetaFinder**](https://github.com/DavidPerezA12/MetaFinder) —

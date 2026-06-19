@@ -1,6 +1,6 @@
 # Ozyra
 
-Ozyra is my personal AI workspace. There are three related codebases: the current hosted web app, an open-source local-first edition rebuilt from an earlier OzyraChat version, and a native iOS app that ports the same ideas into SwiftUI.
+Ozyra is my personal AI workspace. There are three related codebases: the current hosted web app, Ozyra Open (an old OzyraChat build stripped back for local use), and a native iOS app that ports the same ideas into SwiftUI.
 
 ## OzyraChat Web
 
@@ -21,7 +21,7 @@ The app is not just a chat skin. A lot of the work is in the plumbing: local sch
 
 ## Ozyra Open
 
-[Ozyra Open](https://github.com/DavidPerezA12/OzyraOpen) is the public local-first edition. It started from an earlier OzyraChat codebase and was reworked into a standalone browser client: Vite, React, TypeScript, local browser storage and direct OpenRouter streaming.
+[Ozyra Open](https://github.com/DavidPerezA12/OzyraOpen) is the public local version. I took an earlier OzyraChat codebase, removed the SaaS pieces and left a small browser client: Vite, React, TypeScript, local storage and direct OpenRouter calls.
 
 It deliberately leaves out the hosted SaaS layer: no Supabase auth, no billing, no server-side quotas, no managed sync and no notebook/RAG infrastructure. The point is to keep a small, inspectable version for people who want to bring their own API key and keep conversations local.
 
