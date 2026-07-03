@@ -29,7 +29,8 @@ Check out [mysite](https://davidperezsite.vercel.app)
 
 
 ## Open source
-
+- [**SurvivorDrive Web**](https://github.com/DavidPerezA12/SurvivorDriveWeb)
+  — arcade driving game in the browser, built with Three.js.
 - [**Ozyra Open**](https://github.com/DavidPerezA12/OzyraOpen) —
   I stripped an old OzyraChat build back into a local app: your key,
   your browser, no accounts.
@@ -39,8 +40,7 @@ Check out [mysite](https://davidperezsite.vercel.app)
   extract and visualize EXIF and GPS data from images.
 - [**InputSync**](https://github.com/DavidPerezA12/InputSync) — share
   one keyboard and mouse across multiple machines.
-- [**SurvivorDrive Web**](https://github.com/DavidPerezA12/SurvivorDriveWeb)
-  — arcade driving game in the browser, built with Three.js.
+
 
 ## Setup
 
