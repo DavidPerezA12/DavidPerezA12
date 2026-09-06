@@ -1,5 +1,5 @@
 # David Perez
-I build tools I actually want to use, mostly macOS utilities and developer tooling.
+
 
 Check out [mysite](https://davidperezsite.vercel.app)
 
