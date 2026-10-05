@@ -1,8 +1,7 @@
 # David Pérez
 
-I mostly make web apps, plus a few native things for Mac and iPhone.
-
-Site: [davidperezsite.vercel.app](https://davidperezsite.vercel.app)
+I mostly make web apps, plus a few native things for Mac and iPhone. More on
+[my site](https://davidperezsite.vercel.app).
 
 ## What I'm working on
 
