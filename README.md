@@ -1,54 +1,36 @@
-# David Perez
+# David Pérez
 
+I mostly make web apps, plus a few native things for Mac and iPhone.
 
-Check out [mysite](https://davidperezsite.vercel.app)
+Site: [davidperezsite.vercel.app](https://davidperezsite.vercel.app)
 
-## Projects
+## What I'm working on
 
-- [**OzyraChat**](https://ozyra.vercel.app) — chat interface with
-  notebooks, file attachments, model switching and image generation.
-- [**BioTrack**](https://biotrackpremium.vercel.app/) — track your health and fitness. Syncs with HealthKit and Health Connect.([notes](docs/biotrack.md))
-- [**TaskFlow**](https://taskfloweb.vercel.app/) — break down a project
-  into the next thing to actually do.
-- [**Mac UtilityHub**](https://macutilityhub-site.vercel.app) — native
-  macOS app for battery status, cleanup and quick commands.
-  ([notes](docs/mac-utilityhub.md))
-- [**ClipCode**](https://clip-codeapp.vercel.app/) — pick project files,
-  count tokens, get clean context ready for an AI prompt.
-- [**PropFlow**](https://prop-flows.vercel.app/) — rough client notes in,
-  proposal and contract draft out.
-- [**LM Local**](https://lmlocal.vercel.app/) — running language and vision models
-  fully on-device on iPhone.
+- [OzyraChat](https://ozyra.vercel.app) - my AI chat app. Notebooks, file
+  uploads, image generation, switching models mid-chat. There's also
+  [OzyraOpen](https://github.com/DavidPerezA12/OzyraOpen), an old build
+  stripped down to run in the browser with your own key.
+- [BioTrack](https://biotrackpremium.vercel.app) - health and training
+  tracker. iOS first, syncs with HealthKit and Health Connect.
+- [Mac UtilityHub](https://macutilityhub-site.vercel.app) - native macOS app
+  for battery status, cleanup and quick commands.
+- [LM Local](https://lmlocal.vercel.app) - runs language and vision models on
+  the iPhone, offline.
 
+## Smaller stuff
 
-## Experiments
+- [TaskFlow](https://taskfloweb.vercel.app) - breaks a project down into the
+  next thing to actually do.
+- [ClipCode](https://clip-codeapp.vercel.app) - pick files from a project, see
+  the token count, copy it as context for a prompt.
+- [PropFlow](https://prop-flows.vercel.app) - messy client notes in, proposal
+  and contract draft out.
+- [MetaFinder](https://github.com/DavidPerezA12/MetaFinder) - pulls EXIF and
+  GPS data out of photos.
+- [InputSync](https://github.com/DavidPerezA12/InputSync) - one keyboard and
+  mouse across several machines.
+- [dotfiles](https://github.com/DavidPerezA12/dotfiles) - my Mac setup: zsh,
+  Neovim, iTerm2, Homebrew.
 
-- [**OzyraApp**](docs/ozyra.md) — SwiftUI rebuild of OzyraChat for
-  iOS/iPadOS.
-
-
-
-## Open source
-- [**SurvivorDrive Web**](https://github.com/DavidPerezA12/SurvivorDriveWeb)
-  — arcade driving game in the browser, built with Three.js.
-- [**Ozyra Open**](https://github.com/DavidPerezA12/OzyraOpen) —
-  I stripped an old OzyraChat build back into a local app: your key,
-  your browser, no accounts.
-- [**FixPilot**](https://github.com/DavidPerezA12/FixPilot) —
-  self-hosted GitHub App that reviews PRs and suggests fixes.
-- [**MetaFinder**](https://github.com/DavidPerezA12/MetaFinder) —
-  extract and visualize EXIF and GPS data from images.
-- [**InputSync**](https://github.com/DavidPerezA12/InputSync) — share
-  one keyboard and mouse across multiple machines.
-
-
-## Setup
-
-- [**dotfiles**](https://github.com/DavidPerezA12/dotfiles) — my macOS
-  dev environment: Zsh, Neovim, iTerm2, Homebrew.
-- [**ServerFiles**](https://github.com/DavidPerezA12/ServerFiles) — Mac
-  mini as a home server, set up to be reproducible.
-
-## Stack
-
-<a href="https://typescriptlang.org"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="32" height="32" alt="TypeScript" /></a>&nbsp;&nbsp;<a href="https://react.dev"><img src="https://cdn.simpleicons.org/react/61DAFB" width="32" height="32" alt="React" /></a>&nbsp;&nbsp;<a href="https://nextjs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/FFFFFF"><img src="https://cdn.simpleicons.org/nextdotjs/000000" width="32" height="32" alt="Next.js" /></picture></a>&nbsp;&nbsp;<a href="https://nodejs.org"><img src="https://cdn.simpleicons.org/nodedotjs/339933" width="32" height="32" alt="Node.js" /></a>&nbsp;&nbsp;<a href="https://postgresql.org"><img src="https://cdn.simpleicons.org/postgresql/4169E1" width="32" height="32" alt="PostgreSQL" /></a>&nbsp;&nbsp;<a href="https://developer.apple.com/swift/"><img src="https://cdn.simpleicons.org/swift/F05138" width="32" height="32" alt="SwiftUI" /></a>&nbsp;&nbsp;<a href="https://threejs.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/threedotjs/FFFFFF"><img src="https://cdn.simpleicons.org/threedotjs/000000" width="32" height="32" alt="Three.js" /></picture></a>&nbsp;&nbsp;<a href="https://tailwindcss.com"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" width="32" height="32" alt="Tailwind CSS" /></a>&nbsp;&nbsp;<a href="https://vitest.dev"><img src="https://cdn.simpleicons.org/vitest/6E9F18" width="32" height="32" alt="Vitest" /></a>&nbsp;&nbsp;<a href="https://playwright.dev"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="32" height="32" alt="Playwright" /></a>
+Usually TypeScript, React/Next.js, Node and Postgres. Swift and SwiftUI for
+the native stuff, Three.js when I'm messing around with games.
